@@ -16,8 +16,7 @@ class School
   end
 
   def grade(grade)
-    if self.roster.key?(grade)
-      self.roster.values
+    self.roster[grade]
     end
   end
 
