@@ -15,4 +15,10 @@ class School
     end
   end
 
+  def grade(grade)
+    if self.roster.values?(grade)
+      self.roster.values
+    end
+  end
+
 end
