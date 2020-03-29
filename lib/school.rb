@@ -21,9 +21,7 @@ class School
 
   def sort
     self.roster.each do |grade, names|
-      names.collect do |name|
-        name.sort
-      end
+      names.sort
     end
     self.roster
   end
